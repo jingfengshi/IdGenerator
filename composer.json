@@ -1,0 +1,22 @@
+{
+    "name": "jasperjing/id",
+    "authors": [
+        {
+            "name": "jasperjing",
+            "email": "240023810@qq.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "tests/"
+        }
+    }
+}
